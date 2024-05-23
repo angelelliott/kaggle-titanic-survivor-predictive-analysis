@@ -68,7 +68,7 @@ none of the passengers in the dataset were traveling alone.
 I created a correlation matrix to see if there were any features that were highly correlated.
 
 <p align="center">
-<img width="600" alt="correlation_matrix" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/23b42203-2216-454b-85ad-a3119fec1035">
+<img width="662" alt="Screenshot 2024-05-22 at 10 06 14 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/7baf8f46-7665-4043-8208-388ec08c32ef">
 </p>
 
 ## Logistic regression
@@ -77,9 +77,21 @@ I deleted features I knew would not be useful like passenger IDs, names, and cab
 family members a passenger was traveling with.
 
 I trained a logistic regression model and tested it.
-<img width="460" alt="summary" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/834a86bb-1c1b-4b3e-bcc6-d2893048952b">
-<img width="451" alt="deviance table" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/62a757b2-74ee-447f-9882-755ac70aa9ac">
-<img width="563" alt="r2" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/5e140766-06ce-4b5e-9afc-41dc952ea6a3">
+<p align="center">
+<img width="450" alt="summary" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/834a86bb-1c1b-4b3e-bcc6-d2893048952b">
+</p>
+As we inferred during our data analysis, sex and ticket class are the most relevant features for the model. 
+
+<p align="center">
+<img width="450" alt="deviance table" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/62a757b2-74ee-447f-9882-755ac70aa9ac">
+</p>
+
+<p align="center">
+<img width="450" alt="r2" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/5e140766-06ce-4b5e-9afc-41dc952ea6a3">
+<\p>
+  
+## Results
+The accuracy of the model is 84%. 
 
 The area under the curve is 86% which indicates the data is a good fit.
 <img width="680" alt="Screenshot 2024-05-22 at 10 02 51 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/8bc1c494-9c07-4179-a2b8-ee6001748421">
