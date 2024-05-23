@@ -2,7 +2,7 @@
 This is my submission to the "Titanic - Machine Learning from Disaster" challenge from Kaggle (https://www.kaggle.com/c/titanic/).
 For this challenge, I built a logistic regression classifier to predict the survival of passengers aboard the Titanic.
 I was given a dataset of passengers which include the following features: 
-Passenger ID, ticket class, sex, age, number of siblings or spouse aboard the Titanic, number of children or parents abord the Titanic, ticket number,
+Passenger ID, name, ticket class, sex, age, number of siblings or spouse aboard the Titanic, number of children or parents aboard the Titanic, ticket number,
 passenger fare, cabin number, and port of embarkation. 
 
 ## Pre-processing: Dealing with missing values
@@ -64,3 +64,22 @@ none of the passengers in the dataset were traveling alone.
 <p align="center">
 <img width="600" alt="withFam" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/4db15ecb-3650-4d45-a8d7-f2de6302bf15">
 </p>
+
+I created a correlation matrix to see if there were any features that were highly correlated.
+
+<p align="center">
+<img width="600" alt="correlation_matrix" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/23b42203-2216-454b-85ad-a3119fec1035">
+</p>
+
+## Logistic regression
+
+I deleted features I knew would not be useful like passenger IDs, names, and cabin numbers. I also deleted the feature WithFam. This feature is the one where I assessed how many
+family members a passenger was traveling with.
+
+I trained a logistic regression model and tested it.
+<img width="460" alt="summary" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/834a86bb-1c1b-4b3e-bcc6-d2893048952b">
+<img width="451" alt="deviance table" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/62a757b2-74ee-447f-9882-755ac70aa9ac">
+<img width="563" alt="r2" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/5e140766-06ce-4b5e-9afc-41dc952ea6a3">
+
+The area under the curve is 86% which indicates the data is a good fit.
+<img width="680" alt="Screenshot 2024-05-22 at 10 02 51 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/8bc1c494-9c07-4179-a2b8-ee6001748421">
