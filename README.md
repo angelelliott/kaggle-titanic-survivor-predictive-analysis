@@ -27,7 +27,21 @@ Perhaps this is meant to reflect the real-life situation.
 <img width="600" alt="density-ticket-fares" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/bccdafec-5241-493e-b0ba-565281220ce2">
 </p>
 
-I watched the movie Titanic. Based on this information, I do 
+There were a lot more men than women aboard the Titanic. 
 <p align="center">
 <img width="600" alt="Screenshot 2024-05-22 at 9 34 27 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/339e957b-a02e-4fcc-bc1a-afb14676db69">
+</p>
+
+I watched the movie. I know that women and children were given preference when boarding lifeboats. I predict sex will play an important role in survival.
+
+<p align="center">
+<img width="600" alt="survival-sex" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/ee726d1e-a7a0-40a0-81be-2bfc33c00705">
+</p>
+
+Indeed, women were more likely to survive. 
+
+I made a similar graph for passenger survival based on ticket class. From watching the movie, I (correctly) inferred that people in third class has the least chance of survival.
+
+<p align="center">
+<img width="600" alt="Screenshot 2024-05-22 at 9 45 24 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/45a54cdf-6969-4432-bca7-6341d9980e97">
 </p>
