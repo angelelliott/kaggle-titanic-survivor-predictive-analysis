@@ -45,3 +45,22 @@ I made a similar graph for passenger survival based on ticket class. From watchi
 <p align="center">
 <img width="600" alt="Screenshot 2024-05-22 at 9 45 24 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/45a54cdf-6969-4432-bca7-6341d9980e97">
 </p>
+
+Here's another look:
+
+<p align="center">
+<img width="600" alt="survival-class" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/8a96a0aa-9292-4668-9f88-1995a5137490">
+</p>
+
+<p align="center">
+<img width="300" alt="Screenshot 2024-05-22 at 9 53 38 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/6ab5ccab-56cb-4f19-b4fb-55a1fc2bd8bf">
+
+<img width="300" alt="SibSp" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/7bf91248-45b8-4e4b-97e7-0642c36d68ee">
+</p>
+
+At first I thought a lot of passengers were traveling alone. I combined the features for the number of siblings, spouse, children or parents aboard the Titanic and found that 
+none of the passengers in the dataset were traveling alone.
+
+<p align="center">
+<img width="600" alt="withFam" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/4db15ecb-3650-4d45-a8d7-f2de6302bf15">
+</p>
