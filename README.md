@@ -14,7 +14,13 @@ I started with some density plots to get a sense of the data that I was dealing 
 
 Right off the bat, I notice that our training set is not balanced. There are a lot more cases of passengers not surviving than surviving. 
 Perhaps this is meant to reflect the real-life situation.
-<img width="300" alt="bar-survival" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/1a1b993c-52df-4cfc-9f3a-b6fa1faf329a">
 
-Most passengers are between 20 and 40
-<img width="300" alt="density-plot-age" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/bbfe16b8-bac3-4525-aead-9465f034fe9f">
+<p align="center">
+<img width="600" alt="bar-survival" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/1a1b993c-52df-4cfc-9f3a-b6fa1faf329a">
+</p>
+
+Most passengers are between 20 and 40.
+
+<p align="center">
+<img width="600" alt="density-plot-age" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/bbfe16b8-bac3-4525-aead-9465f034fe9f">
+</p>
