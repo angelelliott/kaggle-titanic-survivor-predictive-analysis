@@ -88,10 +88,13 @@ As we inferred during our data analysis, sex and ticket class are the most relev
 
 <p align="center">
 <img width="450" alt="r2" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/5e140766-06ce-4b5e-9afc-41dc952ea6a3">
-<\p>
+</p>
   
 ## Results
 The accuracy of the model is 84%. 
 
 The area under the curve is 86% which indicates the data is a good fit.
+
+<p align="center">
 <img width="680" alt="Screenshot 2024-05-22 at 10 02 51 PM" src="https://github.com/angelelliott/kaggle-titanic-survivor-predictive-analysis/assets/79605544/8bc1c494-9c07-4179-a2b8-ee6001748421">
+</p>
